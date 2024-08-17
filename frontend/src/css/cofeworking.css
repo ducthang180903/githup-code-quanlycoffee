@@ -1,0 +1,86 @@
+.workingpage2{
+    text-align: center;
+    background: rgb(255, 195, 195);
+    height: 25px;
+}
+.spantext{
+    font-weight: bold;
+    font-size: 20px;
+}
+.workingpage3{
+    display: flex;
+    margin-top: 5px;
+}
+.divghichuworkingcoler{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background: rgb(122, 249, 236);
+}
+.divtextghichuworkingcoler{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.divtextghichuworkingcoler1{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.divghichuworkingcoler1{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background: rgb(249, 100, 55);
+}
+.divtextghichuworkingcoler2{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.divghichuworkingcoler2{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background: rgb(230, 255, 69);
+}
+.btnaddbanworking{
+    margin-left: 410px;
+    border-radius: 5px;
+}
+.tablebanworking {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+    height: 600px;
+   
+    overflow-y: auto;
+}
+
+.cardworking {
+    margin-left: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(122, 249, 236);
+    padding: 10px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.cardworking img {
+   
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cardworking p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card.booked {
+    background-color: red; /* Hoặc bất kỳ màu nào bạn muốn để chỉ các bàn đã đặt */
+  }

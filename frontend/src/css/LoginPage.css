@@ -1,0 +1,97 @@
+
+
+  .loginContainer {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    max-width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+margin-top: 15%;
+  margin-left: 320px;
+  }
+  
+  .loginContainer h1 {
+   margin-top: -20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .inputContainer {
+
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .loginForm{
+    margin-top: 30px;
+  }
+  .inputContainer input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff;
+  }
+  
+  .inputContainer input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .inputContainer input::placeholder {
+    color: transparent; /* Hide placeholder */
+  }
+  
+  .inputContainer label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 0 5px;
+    color: #aaa;
+    font-size: 16px;
+    transition: all 0.2s;
+    pointer-events: none;
+  }
+  
+  .inputContainer input:focus + label,
+  .inputContainer input:not(:placeholder-shown) + label,
+  .inputContainer .filled {
+    top: 0;
+    left: 15px;
+    font-size: 12px;
+    color: #4CAF50;
+  }
+  
+  .inputContainer input:focus::placeholder,
+  .inputContainer input:not(:placeholder-shown)::placeholder {
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+  .loginForm button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+  }
+  .textchaomung{
+    font-size: 12px;
+    color: #4CAF50;
+
+  }
+  
+  

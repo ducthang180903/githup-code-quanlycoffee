@@ -1,0 +1,11 @@
+
+.app {
+  display: flex;
+}
+
+.content {
+  margin-top: 0px;
+  margin-left: 245px; /* Cùng kích thước với sidebar */
+
+  flex: 1;
+}

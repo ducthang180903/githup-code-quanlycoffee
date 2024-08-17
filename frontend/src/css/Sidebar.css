@@ -1,0 +1,205 @@
+.sidebar {
+
+    width: 200px;
+    height: 690px;
+    background-color: #f39a9a;
+    margin-top: -2px;
+    position: fixed;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .brand {
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 200px;
+  }
+  
+  .brandLogo {
+    width: 50px;
+    height: auto;
+  }
+  .textgameroom{
+    margin-left: 15px;
+    margin-top: 15px;
+   font-size: 24px;
+  }
+  .btndk{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: black;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .btnout{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: black;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+hr{
+    width: 238px;
+    margin-top: 30px;
+    margin-left: -20px;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu li button {
+    color: rgb(0, 0, 0);
+ background: none;
+    border: none;
+ 
+    font-size: 8px;
+    text-align: left;
+    width: 200px;
+   
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .menu li button:hover {
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .btnphongmay{
+    display: flex;
+  }
+  .btnphongmay.active {
+    background-color: #ffffff; /* Màu nền của nút đang được chọn */
+    border-radius: 10px;
+    color: #000000; /* Màu chữ của nút đang được chọn */
+  }
+  .iconmay{
+    width: 25px;
+    height: 25px;
+  }
+  .textphongmay{
+    margin-top: 7px;
+    margin-left: 35px;
+  }
+  .textmenu{
+    margin-top: 7px;
+    margin-left: 30px;
+  }
+  .iconmenu{
+    width: 30px;
+    height: 30px;
+  }
+  .usuario{
+
+    display: flex;
+    margin-top: 90px;
+    overflow-y: auto;
+  }
+  .nombre{
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .email{
+    margin-left: 10px;
+  }
+  .iconavt{
+    width: 40px;
+    height: 40px;
+  }
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .modal h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .modal button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal button:first-child {
+    background-color: #ff4757;
+    color: white;
+  }
+  
+  .modal button:first-child:hover {
+    background-color: #ff6b81;
+  }
+  
+  .modal button:last-child {
+    background-color: #dfe4ea;
+    color: #2f3542;
+  }
+  
+  .modal button:last-child:hover {
+    background-color: #f1f2f6;
+  }
+/* Style cho overlay */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Nút đóng */
+.btnmodal1dong {
+  position: absolute; /* Định vị theo modal */
+  top: 0px; /* Cách cạnh trên */
+  right: -10px; /* Cách cạnh phải */
+  width: 30px; /* Chiều rộng của nút */
+  height: 30px; /* Chiều cao của nút */
+  border-radius: 0px; /* Làm cho nút thành hình tròn */
+  background-color: #fff; /* Màu nền của nút */
+border: none;
+
+  display: flex; /* Để căn giữa nội dung */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  cursor: pointer; /* Con trỏ khi hover */
+  color: #333; /* Màu chữ */
+
+  transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+/* Thay đổi màu sắc khi hover */
+.btnmodal1dong:hover {
+  color: #007bff;
+}

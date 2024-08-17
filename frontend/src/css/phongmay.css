@@ -1,0 +1,188 @@
+.khuvucphongmay{
+  
+    background: rgb(255, 255, 255);
+    width: 750px;
+    height: 60px;
+    
+}
+.headrephongmay{
+  
+    background: rgb(255, 251, 251);
+    width: 750px;
+    height: 722px;
+    
+}
+.phongmaytong{
+    display: flex;
+    width: 100%;
+    height: 722px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.btntieuchuan{
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.btngaming{
+    margin-left: 35px;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.btnchuyennghiep{
+    margin-left: 35px;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.btnthidau{
+    margin-left: 35px;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.logtenban{
+  
+    height: 40px;
+    margin-top: -20px;
+   text-align: center;
+    background: red;
+   
+}
+.headrephongmay1{
+    border: 1px solid black;
+    height: 720px;
+    width: 475px;
+}
+.divtrangthailog{
+    display: flex;
+    margin-top: 30px;
+}
+.tenbanlog1{
+  margin-left: 5px;
+    width: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.tenbanlog{
+    margin-left: 40px;
+
+}
+.tenbanlog2{
+    margin-left: 30px;
+    
+}
+.tenbanlog3{
+    margin-left: 5px;
+      width: 100px;
+      border-radius: 5px;
+      border: 1px solid black;
+    
+  }
+  .btnchuyenban01{
+      border: none;
+    width: 250px;
+    height: 30px;
+  }
+  .btnchuyenban01:hover{
+   background-color: #ffd92e;
+}
+  .btngopban01{
+    border: none;
+    width: 250px;
+    height: 30px;
+  }
+  .btngopban01:hover{
+    background-color: #fc9652;
+  }
+  .tablecontainer002 {
+    width: 100%;
+    height: 400px;
+  margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
+background: rgb(255, 249, 249);
+  }
+  
+  .producttable002 {
+    width: 100%;
+    border-collapse: collapse;
+   
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .producttable002 th, .producttable002 td {
+    padding: 12px 15px;
+  }
+  
+  .thead002 .trhead002 {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .tbody002 .trbody002 {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .tbody002 .trbody002:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .tbody002 .trbody002:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .tbody002 .trbody002:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  .divtrangthailog001{
+    display: flex;
+    margin-top: 54px;
+  }
+  .btndatban01{
+    width: 250px;
+    height: 50px;
+  }
+  .btnthanhtoan01{
+    width: 250px;
+    height: 50px;
+    border: none;
+  }
+  .btnthanhtoan01:hover{
+background-color: #009879;
+  }
+  .btnoder1{
+    width: 100%;
+    height: 50px;
+    border: none;
+  
+  }
+  .btnoder1:hover{
+    background-color: #ffd92e;
+  
+  }
+  .tonghoadon{
+    display: flex;
+    margin-top: 20px;
+  }
+  .hoadon001{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .hoadon002{
+    width: 200px;
+    height: 30px;
+    margin-left: 120px;
+  }

@@ -1,0 +1,96 @@
+/* src/components/RegisterForm.css */
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+   
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: -30px;
+  
+    /* background-color: #ffffff; */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .formRow {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .formColumn {
+    flex: 1;
+  }
+  
+  .formLabel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .formInput,
+  .formSelect {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formInput:focus,
+  .formSelect:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .formButton {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .successMessage {
+    color: #28a745;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .errorMessage {
+    color: #dc3545;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .registerForm {
+      padding: 20px;
+    }
+  
+    .formRow {
+      flex-direction: column;
+    }
+  
+    .formButton {
+      width: 100%;
+    }
+  }
+  

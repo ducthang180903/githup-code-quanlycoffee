@@ -1,0 +1,86 @@
+.ngoaitroipage2{
+    text-align: center;
+    background: rgb(255, 195, 195);
+    height: 25px;
+}
+.spantext{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ngoaitroipage3{
+    display: flex;
+    margin-top: 5px;
+}
+.divghichucoler{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background: rgb(122, 249, 236);
+}
+.divtextghichucoler{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.divtextghichucoler1{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.divghichucoler1{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background: rgb(249, 100, 55);
+}
+.divtextghichucoler2{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.divghichucoler2{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background: rgb(230, 255, 69);
+}
+.btnaddban{
+    margin-left: 410px;
+    border-radius: 5px;
+}
+.tableban {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+    height: 600px;
+   
+    overflow-y: auto;
+}
+
+.card {
+    margin-left: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(187, 234, 230);
+    padding: 10px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.card img {
+   
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card.booked {
+    background-color: red; /* Hoặc bất kỳ màu nào bạn muốn để chỉ các bàn đã đặt */
+  }
